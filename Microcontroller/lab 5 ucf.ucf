@@ -1,0 +1,43 @@
+NET "clk" LOC = "T9";
+
+
+NET "btn" LOC = "M13";
+
+NET "btn1" LOC = "K13";
+NET "btn2" LOC = "K14";
+NET "btn3" LOC = "J13";
+NET "btn4" LOC = "J14";
+NET "reset" LOC = "H13";
+
+
+
+# 7-segment LED display
+# segments<7> is segment a
+# segments<1> is segment g
+# segments<0> is the decimal point
+# an<3> is the leftmost digit
+# an<0> is the rightmost digit
+# All signals are active low.
+# Individual digits must be scanned to the display.
+# Using a 1667 Hz clock seems to work well for scanning.
+NET "a1" LOC = "E14";
+NET "b1" LOC = "G13";
+NET "c1" LOC = "N15";
+NET "d1" LOC = "P15";
+NET "e1" LOC = "R16";
+NET "f1" LOC = "F13";
+NET "g1" LOC = "N16";
+NET "dp1" LOC = "P16";
+NET "an3" LOC = "E13";
+NET "an2" LOC = "F14";
+NET "an1" LOC = "G14";
+NET "an0" LOC = "D14";
+
+
+
+
+
+
+
+
+
